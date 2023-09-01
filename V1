@@ -1,0 +1,9 @@
+userEmail = input("what is your email address?\n")
+EmailSplice = userEmail.split("@",1)
+Username = EmailSplice[0]
+print(Username)
+
+EmailSplice2 = userEmail.split("@",1)
+EmailDomain = EmailSplice[1]
+print(EmailDomain)
+
